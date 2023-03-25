@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "https://frontend2-5828d.web.app/")
 public class ControladoraEducacion {
     
     @Autowired
