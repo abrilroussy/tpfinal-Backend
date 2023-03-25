@@ -3,8 +3,8 @@ package com.backend2.tpfinal.seguridad.Service;
 
 import com.backend2.tpfinal.seguridad.entity.Usuario;
 import com.backend2.tpfinal.seguridad.repository.IUsuarioRepository;
+import jakarta.transaction.Transactional;
 import java.util.Optional;
-import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

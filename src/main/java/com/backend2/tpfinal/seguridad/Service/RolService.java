@@ -4,8 +4,8 @@ package com.backend2.tpfinal.seguridad.Service;
 import com.backend2.tpfinal.seguridad.entity.Roll;
 import com.backend2.tpfinal.seguridad.enums.RollNombre;
 import com.backend2.tpfinal.seguridad.repository.IRolRepository;
+import jakarta.transaction.Transactional;
 import java.util.Optional;
-import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
